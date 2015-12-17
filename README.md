@@ -1,42 +1,18 @@
 # Promise Exercise
 
-There are two files in the callback directory: concat.js and copy.js. As their name entail, one file copies the content of a js file
-and the other concatenates multiple js files together into the build directory.
+There are two files in the callback directory: concat.js and copy.js. NOTE: do not change them, work in the exercise directory. As their name entail, one file copies the content of a js file and the other concatenates multiple js files together into the build directory.
 
-Step by step, use promises to remove all callbacks and destroy the pyramid of doom!
+Step by step, through the exercises, use promises to remove all callbacks and destroy the pyramid of doom!
 
 ## Usage
 
-Check out the callback directory and look at the files. Notice the "callback hell".
+Check out the callback directory and look at the files (do not modify, just notice the "callback hell").
 
 Now `cd` into the exercise directory and modify each js file at a time following the instructions below.
 
 Run by typing `node 00.js` in the terminal.
 
-You have successfully modified the file if your terminal logs the correct copied or concatenated js files:
-
-copy -
-
-    function hello() {
-      console.log("hello world");
-    }
-
-concat -
-
-    function hello() {
-      console.log("hello world");
-    }
-    alert('I print')
-    var lib = require('lib/lib.js')
-
-    lib.success()
-    var error {
-      errors: "none",
-    }
-
 ## Exercise
-
-### Copy.js
 
 ### 00
 
@@ -44,17 +20,15 @@ concat -
 
 ### 01
 
-Chain the promises. Close the functions and `return` the promise.
-
-##Concat.js
+Chain the promises. Close the functions and `return` a promise.
 
 ### 02
 
-Repeat step 00.
+Repeat step 00 but with more promises.
 
 ### 03
 
-Repeat step 01.
+Repeat step 01 chaining.
 
 ### 04
 

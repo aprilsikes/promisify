@@ -7,7 +7,6 @@ module.exports = {
         if (err) {
           reject(err)
         }
-        console.log(err, data);
         resolve(data);
       })
     })
